@@ -1,0 +1,116 @@
+/*---------------------------------------------------------------------*/
+/* General Styles and utilities styles */
+/*---------------------------------------------------------------------*/
+
+:root {
+    --primary-bgc: rgb(36, 76, 195);
+    --secondary-bgc: rgb(88, 126, 203);
+    --alternate-bgc: rgb(123, 150, 210);
+    --fontcolor1: rgb(236, 239, 243);
+    --fontcolor2: rgb(36, 76, 195);
+    --fontcolor3: rgb(45, 23, 211);
+    --transition-speed: 0.5s;
+}
+  
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+  
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+  
+body {
+    margin: 0 auto;
+    max-width: 180rem;
+    font-family: 'Open Sans Regular', sans-serif;
+    background-image: linear-gradient(90deg, rgba(88, 126, 203, 0.2), rgba(123, 150, 210, 0.4));
+    overflow-x: hidden;
+}
+  
+
+
+
+/*-------------------------------------------------------------------*/
+/* Store Google-Fonts locally because CDN not compliant with GDPR */
+/*-------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('assets/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+  
+  @font-face {
+    font-family: 'Open Sans Medium';
+    src: url('assets/fonts/OpenSans-Medium.ttf') format('truetype');
+    font-weight: normal; 
+}
+  
+  @font-face {
+    font-family: 'Open Sans Regular';
+    src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/* Navbar for larger screen-sizes / checkbox hack below for small screen */
+/*--------------------------------------------------------------------------*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-bgc);
+    color: var(--fontcolor1);
+    min-height: 12vh;
+}
+  
+.nav-links a {
+    color: var(--fontcolor1);
+}
+  
+.logo {
+    display: inline-block;
+    margin-left: 12vw;
+    height: auto;
+}
+  
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin-right: 5vw;
+}
+  
+.nav-links li {
+    margin-right: 0.4rem;
+}
+  
+.nav-links li a {
+    display: flex;
+    align-items: center;
+}
+  
+.nav-icon {
+    font-size: 1.4rem;
+    padding-right: 0.8rem;
+}
+  
+.nav-links li {
+    padding: 0.2rem 1rem;
+}
+  
