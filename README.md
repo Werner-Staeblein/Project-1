@@ -8,7 +8,7 @@ __placeholder for the screenshot of the final project__
 
 ## Purpose
 
-The project is a static website with __X__ number of pages.
+The project is a static website with 5 number of pages.
 
 The website is built with HTML and CSS for Code Institute's Full Stack Developer course - Project 1
 
@@ -31,7 +31,7 @@ Users want to view and access the website from different devices with various sc
 
 ## Structure
 
-The website has __X__ pages. From the homepage, all pages can be visited. Key of navigation centered around multiple options to view current projects/products on offer.
+The website has 5 pages. From the homepage, all pages can be visited. Key of navigation centered around multiple options to view current projects/products on offer.
 
 # Homepage
 
