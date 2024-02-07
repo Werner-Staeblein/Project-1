@@ -49,7 +49,8 @@ Message to user that user can find information about residential construction. I
 
 # Color Scheme
 
-![Initial color palette used](assets/readme_images/Color_Palette.pngimages/sample-image.jpg)
+![Color Palette](assets/readme_images/Color_Palette.png)
+
 
 Color palette used with meaning and interpreation of blue color in mind. Blue conveys a sense of trust, stability and reliability. Color blue as core for the color scheme also conveys dependability, an important factor for the underlying product advertised ('dependable real estate developer')
 
