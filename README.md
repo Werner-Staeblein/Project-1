@@ -1,4 +1,4 @@
-## Website Title (Homeland real estate)
+## Website Title (Homeland Living | real estate developer)
 
 Is a website for people interested in real estate and newly build apartments/houses in particular
 
