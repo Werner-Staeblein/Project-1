@@ -293,7 +293,7 @@ input[type="checkbox"] {
 @media (max-width: 768px) {
     .hamburger {
       display: block;
-      margin-top: 3rem;
+      margin-top: 2rem;
       margin-right: 4rem;
       font-size: 5rem;
       color: white;
@@ -306,9 +306,9 @@ input[type="checkbox"] {
     right: 0;
     left: 0;
     text-align: center;
-    padding: 5rem 0;
+    padding: 6rem 0;
     width: 100vw;
-    margin-top: 40rem;
+    margin-top: 50rem;
     z-index: 1; 
 }
   
@@ -317,7 +317,7 @@ input[type="checkbox"] {
 }
   
 .nav-links li + li {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
   
 input[type="checkbox"]:checked ~ .nav-links {
