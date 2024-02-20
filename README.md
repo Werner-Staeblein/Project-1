@@ -90,7 +90,7 @@ Selected images (unsplash, pexels) that are free of licenses in addition to imag
 
 - use of aria labels with descriptive alt text for images and tags to procide information for screenreaders
 
-Site was checked with __Toptotal Color filer (href needed)__ to verify tht color balance is sufficient to have best possible access for users with color blindness
+<span style="color:red; font-weight:bold;">Site was checked with __Google Lighthouse was used__ to verify tht color balance is sufficient to have best possible access for users with color blindness</span>
 
 ## Visual effects
 
@@ -115,11 +115,7 @@ Well-designed buttons to enhance website navigation. Guides users towrds importa
 ### Hover Effects
 Mild hover effects on buttons to add layer of responsiveness. Visual feedback, signaling to users that an element is interactive. This responsiveness contributes to a more engaging and dynamic user experience, making the website feel modern and user-focused.
 
-
-
-
-
-## Technologies used
+# Technologies used
 
 - HTML, CSS
 
@@ -127,7 +123,7 @@ Mild hover effects on buttons to add layer of responsiveness. Visual feedback, s
 
 - [GitPod](https://www.gitpod.io/) - GitPod as IDE for development of this site
 
-- [Git] (https://git-scm.com) - Version control system Git
+- [Git](https://git-scm.com) - Version control system Git
 
 - [GoogleFonts](https://fonts.google.com/) - Google Fonts stored locally in project to company with European GDPR that does not allow for usage of CDN
 
@@ -144,7 +140,6 @@ Mild hover effects on buttons to add layer of responsiveness. Visual feedback, s
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To check responsiveness of page, debug code, and important lighthouse checks for performance, accessibility, best practices, SEO
 
 - A template provided by Code Institute for the workspace of the project
-
 
 # Testing
 
@@ -192,17 +187,17 @@ Desktop
 | __placeholder for user expectation__              | __placeholder for realisation__             |
 || __placeholder for user expectation__             | | __placeholder for realisation__             |
 
-## Credits
+# Credits
 
 - The tutorial from Code Institute (Live Running Project) particularly helpful for the navigation.
 
 - The video "Pure CSS Hamburger Menu & Overlay" on YouTube by author TraversyMedia was used to better understand workings of checkbox hack for hamburger menu
 
-## Content
+# Content
 
 Text content of this website was written by the owner.
 README.md file is based on structure of various README.md that students of Code Institute have used in their respective projects
 
-## Acknowledgments
+# Acknowledgments
 
-__placeholder acknowledgements__
+<span style="color:red; font-weight:bold;">placeholder acknowledgements</span>
