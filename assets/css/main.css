@@ -56,6 +56,36 @@ section, footer{
     padding: 1rem;
 }
 
+.heading{
+    text-align: center;
+    margin: 10rem 0 8rem 0;
+    position: relative;
+    color: var(--fontcolor1);
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem var(--fontcolor3);
+  }
+  
+.more-info-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--alternate-bgc); 
+    border-radius: 0.6rem;
+    cursor: pointer;
+    margin: auto auto 0 auto;
+    color: var(--fontcolor1);
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .more-info-button:hover,
+  .more-info-button:active {
+    background-color: var(--secondary-bgc);
+    transform: scale(1.1);
+  }
+  
 
 /*-------------------------------------------------------------------*/
 /* Store Google-Fonts locally because CDN not compliant with GDPR */
