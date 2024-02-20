@@ -297,8 +297,28 @@ th, td {
     white-space: normal;
 }
 
-
-
+th {
+    background-color: var(--primary-bgc);
+    color: var(--fontcolor1);
+    font-size: 1.3rem;
+}
+  
+td {
+    background-color: var(--secondary-bgc);
+    color: var(--fontcolor1);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+  
+tr:nth-child(even) {
+    background-color: var(--alternate-bgc);
+}
+  
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--fontcolor3);
+}
 
 /*---------------------------------------------------------------------*/
 /*                    QUALITY PAGE
