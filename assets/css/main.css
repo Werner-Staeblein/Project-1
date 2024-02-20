@@ -33,7 +33,6 @@ body {
     overflow-x: hidden;
 }
 
-
 section, footer{
     padding: 0 3rem;
 }
@@ -66,6 +65,28 @@ section, footer{
     text-shadow: 0.2rem 0.2rem 0.2rem var(--fontcolor3);
   }
   
+.heading::before{
+    content:'';
+    width: 50%;
+    height: 0.2rem;
+    background-color: var(--secondary-bgc);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 6rem;
+}
+  
+.heading::after{
+    content:'';
+    width: 30%;
+    height: 0.2rem;
+    background-color: var(--secondary-bgc);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 8rem;
+}
+
 .more-info-button {
     display: inline-block;
     padding: 1rem 2rem;
@@ -108,7 +129,6 @@ section, footer{
     src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
     font-weight: normal;
 }
-
 
 /*--------------------------------------------------------------------------*/
 /* Navbar for larger screen-sizes / checkbox hack below for small screen */
