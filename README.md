@@ -4,7 +4,7 @@ Is a website for people interested in real estate and newly build apartments/hou
 
 Goal is attraction of interest in product and to convey message of quality, reliability of project completion, and sustainability in construction work
 
-__placeholder for the screenshot of the final project__
+<span style="color:red; font-weight:bold;">placeholder for link of the final project</span>
 
 ## Purpose
 
@@ -14,28 +14,43 @@ The website is built with HTML and CSS for Code Institute's Full Stack Developer
 
 __placeholder for link of the final project__
 
-## User Experience
+# User Experience
 
-# First time users
+## First time users
+**User Story 1: Potential homebuyer**
 
-+ __placeholder for user stories of first time users__
+Wants to navigate website easily on all conceivable device. User is interested in newly built apartments or townhouses
+Wants to see key characteristics of apartments for sale such as availability, size
 
+**User Story 2: Potential homebuyer**
 
-# Returning users
+Explore information about neighborhood, amenities, assessment of location and overall offering
 
-+ __placeholder for user stories of returning users__
+**User Story 3: Potential homebuyer**
+Information thorugh images and floor plan structures available. Information on potential sustainability, reliability, quality
 
-# All users
+**User Story 4: Potential homebuyer**
+Possibility to obtain further information with contact optionality, possible receive newsletter
 
-Users want to view and access the website from different devices with various screensizes (tablet, mobile, desktop, laptop)
+## Returning users
+        
+**User Story 1: Returing visitor**
 
-## Structure
+See if new property listings or projects have become available			
+                
+**User Story 2: Returing visitor**
+
+Return to the website to support decision-making and information-gathering for potential purchase of real estate			
+                
+## All users
+Users want to view and access the website from different devices with various screen-sizes			
+Website shall be accessible with screenreaders			
+
+# Structure
 
 The website has 5 pages. From the homepage, all pages can be visited. Key of navigation centered around multiple options to view current projects/products on offer.
 
 # Homepage
-
-
 
 Message to user that user can find information about residential construction. Image of visioanry building to increase appeal and attractiveness/stickiness of user. Create curiositiy about "hello"-product (visionary building)
 
@@ -85,38 +100,89 @@ Some subtle highlighting of background-color on hover/focus state for buttons
 # Buttons
 Uniform styling of all buttons across all the different pages sith subtle uniform hover/focus-state effect
 
-## Features
+# Features
 
-# Logo (Home Page)
+### Logo (Home Page)
 
 Logo created with LogoMaker of Experte.de [LogoCreatorExperte.de](https://www.experte.de/logo-maker#/creator)
 
 The logo that serves as a link to the homepage is used in the navigation and footer. With click on logo, user can navigate back to homepage (index.html) all the time
 
+### Buttons
+
+Well-designed buttons to enhance website navigation. Guides users towrds important section of projects or contact page
+
+### Hover Effects
+Mild hover effects on buttons to add layer of responsiveness. Visual feedback, signaling to users that an element is interactive. This responsiveness contributes to a more engaging and dynamic user experience, making the website feel modern and user-focused.
+
+
+
+
+
 ## Technologies used
 
 - HTML, CSS
 
-[GitHub](https://www.github.com) - GitHub for storage of files
+- [GitHub](https://www.github.com) - GitHub for storage of files
 
-[GitPod](https://www.gitpod.io/) - GitPod as IDE for development of this site
+- [GitPod](https://www.gitpod.io/) - GitPod as IDE for development of this site
 
-[Git] (https://git-scm.com) - Version control system Git
+- [Git] (https://git-scm.com) - Version control system Git
 
-[GoogleFonts](https://fonts.google.com/) - Google Fonts stored locally in project to company with European GDPR that does not allow for usage of CDN
+- [GoogleFonts](https://fonts.google.com/) - Google Fonts stored locally in project to company with European GDPR that does not allow for usage of CDN
 
-[FontAwesome](https://fontawesome.com/) - Fontawesome stored locally as CDN not allowed under European GDPR
+- [FontAwesome](https://fontawesome.com/) - Fontawesome stored locally as CDN not allowed under European GDPR
 
-[HTMLValidator](https://validator.w3.org/) - W3C HTML markup validator for validation of HTML code
+- [HTMLValidator](https://validator.w3.org/) - W3C HTML markup validator for validation of HTML code
 
-[JigsawCSS](https://jigsaw.w3.org/css-validator/) - W3C Jigsaw CSS validator for validation of CSS code
+- [JigsawCSS](https://jigsaw.w3.org/css-validator/) - W3C Jigsaw CSS validator for validation of CSS code
 
-[DeepAI](https://deepai.org/) - to generate images
+- [DeepAI](https://deepai.org/) - to generate images
+
+- [Visual Code Studios](https://code.visualstudio.com/) - IDE used to draft the webiste and make working progress remarks in the README.md including placehoders to check for final polishing
+
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- To check responsiveness of page, debug code, and important lighthouse checks for performance, accessibility, best practices, SEO
+
+- A template provided by Code Institute for the workspace of the project
 
 
-## Testing
+# Testing
 
-Testing was ongoing with DevTools of FireFox. Testing done across other Browsers (Google Chrome, Edge)
+Testing was ongoing with DevTools of  Google. Testing done across other Browsers (Firefox, Edge)
+
+1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
+
+The website was tested with HTML validator. No errors were found.
+
+<span style="color:red">__![Home Page HTML](asssets/readme_images/) | a picture of the validation of the HTML done__</span>
+
+- [Home Page HTML](assets/readme_images/IndexHTML.png)
+
+1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
+
+
+The CSS stylesheet was tested with CSS validator. No errors were found.
+
+<span style="color:red">__![CSS Stylling](assets/readme_images/) | a picture of the validation of the CSS valiation done__</span>
+
+2. [style.css CSS](assets/readme_images/)
+
+3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
+
+Google lighthouse reported performance of XYZ on the desktop view / check mobile view
+
+Google lighthouse reported SEO score with XYZ
+
+<span style="color:red">__Include two pictures of lighthouse testing for mobile and desktop view__</span>
+
+Mobile
+
+<img src="assets/readme_images/" alt="Mobile Page" width="600"/>
+
+Desktop
+
+<img src="assets/readme_images/" alt="Mobile Page" width="600"/>
+
 
 ## User Stories
 
