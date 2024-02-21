@@ -118,17 +118,11 @@ section, footer{
     font-weight: bold;
 }
   
-  @font-face {
+@font-face {
     font-family: 'Open Sans Medium';
     src: url('assets/fonts/OpenSans-Medium.ttf') format('truetype');
     font-weight: normal; 
-}
-  
-  @font-face {
-    font-family: 'Open Sans Regular';
-    src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
+} 
 
 /*--------------------------------------------------------------------------*/
 /* Navbar for larger screen-sizes / checkbox hack below for small screen */
