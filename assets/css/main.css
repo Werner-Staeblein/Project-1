@@ -63,7 +63,7 @@ section, footer{
     font-size: 4rem;
     letter-spacing: 0.1rem;
     text-shadow: 0.2rem 0.2rem 0.2rem var(--fontcolor3);
-  }
+}
   
 .heading::before{
     content:'';
@@ -101,8 +101,8 @@ section, footer{
     transition: background-color var(--transition-speed), transform var(--transition-speed);
 }
   
-  .more-info-button:hover,
-  .more-info-button:active {
+.more-info-button:hover,
+.more-info-button:active {
     background-color: var(--secondary-bgc);
     transform: scale(1.1);
 }
@@ -178,7 +178,6 @@ section, footer{
     padding: 0.2rem 1rem;
 }
   
-
 /*---------------------------------------------------------------------*/
 /*                  LANDING INCLUDING BANNER */
 /*---------------------------------------------------------------------*/
@@ -186,7 +185,7 @@ section, footer{
     margin-top: 15vh;
 }
   
-  .banner-img{
+.banner-img{
     display: inline-block;
     max-width: 80%;
     height: auto;
@@ -195,11 +194,11 @@ section, footer{
     margin: 0 auto;
 }
   
-  .banner-img:hover{
+.banner-img:hover{
     opacity: 0.7;
 }
   
-  .banner-headline{
+.banner-headline{
     text-align: center;
     margin: 1.5rem;
     font-size: 6rem;
@@ -208,7 +207,7 @@ section, footer{
     text-shadow: 0.2rem 0.2rem 0.2rem var(--fontcolor3);
 }
   
-  .banner-text{
+.banner-text{
     font-size: 2.5rem;
     color: var(--fontcolor3);
     letter-spacing: 0.1rem;
@@ -242,7 +241,7 @@ section, footer{
     box-shadow: 0.5rem 0.5rem 1rem var(--alternate-bgc);
 }
 
-.card::before{
+.frontcard::before{
     content: '';
     border-radius: 50%;
     position: absolute;
@@ -261,17 +260,17 @@ section, footer{
     z-index: 1;
   }
   
-  .card:nth-child(1)::before {
+.frontcard:nth-child(1)::before {
     content: '70% of units sold';
-  }
+}
   
-  .card:nth-child(2)::before {
+.frontcard:nth-child(2)::before {
     content: 'Sales started';
-  }
-  
-  .card:nth-child(3)::before {
+}
+
+.frontcard:nth-child(3)::before {
     content: 'The vision of living';
-  }
+}
 
 .card h2,
 article h2{
@@ -353,6 +352,7 @@ caption {
     color: var(--fontcolor3);
 }
 
+
 /*---------------------------------------------------------------------*/
 /*                    QUALITY PAGE
 /*---------------------------------------------------------------------*/
@@ -369,8 +369,9 @@ caption {
 /*                    REFERENCES PAGE
 /*---------------------------------------------------------------------*/
 
-
-
+.references .card::before{
+    display: none;
+}
 
 /*---------------------------------------------------------------------*/
 /*                    CONTACT PAGE
@@ -453,6 +454,30 @@ form input[type="submit"] {
 /*                    FOOTER
 /*---------------------------------------------------------------------*/
 
+footer{
+    background-color: var(--secondary-bgc);
+    padding: 0.5rem 2rem;
+    border-radius: 1.2rem;
+    margin: 3rem 4rem 0 2.8rem;
+    min-height: 10vh;
+    position: relative;
+}
+  
+footer h4{
+    color: var(--fontcolor1);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+
+.fa-brands{
+    display: inline-block;
+    margin: 8rem 11%;
+    background: transparent;
+    font-size: 4rem;
+    color: var(--fontcolor1);
+}
 
 
 /*---------------------------------------------------------------------*/
