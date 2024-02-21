@@ -99,14 +99,13 @@ section, footer{
     font-size: 2rem;
     text-transform: uppercase;
     transition: background-color var(--transition-speed), transform var(--transition-speed);
-  }
+}
   
   .more-info-button:hover,
   .more-info-button:active {
     background-color: var(--secondary-bgc);
     transform: scale(1.1);
-  }
-  
+}
 
 /*-------------------------------------------------------------------*/
 /* Store Google-Fonts locally because CDN not compliant with GDPR */
@@ -330,6 +329,10 @@ caption {
 /*---------------------------------------------------------------------*/
 /*                    REFERENCES PAGE
 /*---------------------------------------------------------------------*/
+
+
+
+
 
 
 /*---------------------------------------------------------------------*/
