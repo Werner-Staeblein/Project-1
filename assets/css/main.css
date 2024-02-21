@@ -356,7 +356,58 @@ form {
     flex-direction: column;
     margin-right: 1rem;
 }
+
+label {
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+    color: var(--fontcolor2);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
   
+input,
+select {
+    align-self: stretch;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    background: transparent;
+    padding: 0.8rem 0.5rem;
+    color: var(--fontcolor3);
+    font-weight: bold;
+    outline: none;
+    border: 0.6rem solid var(--fontcolor1);
+    border-radius: 0.4rem;
+}
+  
+input[placeholder],
+textarea[placeholder]{
+    color: var(--fontcolor2);
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+textarea {
+    height: 15vh;
+    resize: none;
+    background: transparent;
+    color: var(--fontcolor3);
+    font-weight: bold;
+    font-size: 2rem;
+    outline: none;
+    border: 0.6rem solid var(--fontcolor1);
+    padding: 0.8rem;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+}
+  
+form input[type="submit"] {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
 
 /*---------------------------------------------------------------------*/
 /*                    FOOTER
@@ -367,6 +418,9 @@ form {
 /*---------------------------------------------------------------------*/
 /*          RESPONSIVENESS STARTS HERE */
 /*---------------------------------------------------------------------*/
+
+
+
 
 /*----------------------------------------------------------------------*/
 /* RESPONSIVE NAVBAR MENU STARTS AND CHECKBOX HACK */
