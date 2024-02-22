@@ -721,4 +721,29 @@ th{
 td {
     font-size: 0.9rem;
     }
+
+.banner{
+    margin-top: 21vh;
+    }
+      
+.banner-img{
+    max-width: 90%;
+    }
+    
+.banner1{
+    margin-top: 2vh;
+}
+
+.more-info-button{
+    text-align: center;
+}
+
+.banner-headline{
+    font-size: 3rem;
+}
+
+.banner-text{
+    font-size: 1.6rem;
+}
+
 }
