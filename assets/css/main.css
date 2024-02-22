@@ -468,6 +468,44 @@ footer h4{
     text-align: center;
 }
 
+footer div a img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+.footer-span{
+    color: var(--fontcolor1);
+    font-size: 2rem;
+}
+  
+footer .flex-item p{
+    color: var(--fontcolor1);
+    text-align: center;
+    margin: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+  
+footer .footer-item p{
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+    color: var(--fontcolor1);
+    text-align: center;
+}
+  
+footer .fa-envelope{
+    font-size: 4rem;
+    color: var(--fontcolor1);
+    padding-right: 0.5rem;
+}
+  
+.footer-item a {
+    display: block;
+    margin: 2.3rem auto;  
+    font-size: 2.5rem;
+    color: var(--fontcolor1);
+}
+
 .fa-brands{
     display: inline-block;
     margin: 8rem 11%;
@@ -496,8 +534,6 @@ footer h4{
     color: var(--fontcolor1);
 }
   
-
-
 /*---------------------------------------------------------------------*/
 /*          RESPONSIVENESS STARTS HERE */
 /*---------------------------------------------------------------------*/
