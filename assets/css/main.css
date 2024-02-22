@@ -30,19 +30,18 @@ body {
     font-family: 'Open Sans Regular', sans-serif;
     background-image: linear-gradient(90deg, rgba(88, 126, 203, 0.2), rgba(123, 150, 210, 0.4));
     overflow-x: hidden;
-    opacity: 0;
-    animation: fade-in 1s ease-in-out forwards;
+    /* opacity: 0; */
+    animation: fade-in 0.3s ease-in-out forwards;
 }
  
-@keyframes fade-in{
+/* @keyframes fade-in{
   0%{
     opacity: 0;
   }
   100%{
     opacity: 1;
   }
-}
-
+} */
 
 section, footer{
     padding: 0 3rem;
