@@ -328,7 +328,7 @@ th, td {
     text-align: left;
     white-space: normal;
 }
-
+  
 th {
     background-color: var(--primary-bgc);
     color: var(--fontcolor1);
@@ -351,7 +351,6 @@ caption {
     margin-bottom: 10px;
     color: var(--fontcolor3);
 }
-
 
 /*---------------------------------------------------------------------*/
 /*                    QUALITY PAGE
