@@ -702,7 +702,8 @@ form{
   
 .fa-brands{
       font-size: 2.5rem;
-      margin: 2rem 12%;
+      margin: 2rem 11%;
+      margin-top: 3rem;
     }
   
 .hamburger {
@@ -711,5 +712,13 @@ form{
   
 .heading{
       font-size: 3rem;
+    }
+
+th{
+    font-size: 1rem;
+}
+
+td {
+    font-size: 0.9rem;
     }
 }
