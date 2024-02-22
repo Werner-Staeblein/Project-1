@@ -36,9 +36,9 @@
 
 <body>
 
-  <nav class="navbar" role="navigation">
+  <nav class="navbar" role="menubar" aria-label="navigation">
 
-    <a href="index.html" class="logo" aria-label="link to home and starting page">
+    <a href="index.html" class="logo" aria-label="link to home and starting page" role="menuitem">
       <img src="assets/images/default_transparent_160x131.png" alt="Homeland logo image">
     </a>
 
@@ -46,7 +46,7 @@
     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
     <input type="checkbox" id="checkbox_toggle">
 
-    <ul class="nav-links">
+    <ul class="nav-links" role="navigation links">
       <!-- NAVIGATION MENUS -->
       <li role="menuitem" aria-label="Navigate to the homepage"><a href="index.html"><i class="fa fa-home nav-icon"></i>Home</a></li>
       <li role="menuitem" aria-label="Explore our projects"><a href="projects.html"><i class="fa-regular fa-building nav-icon"></i>Projects</a></li>
@@ -76,7 +76,7 @@
         </p>
         
         <div class="table-container">
-        <table aria-describedby="project urban living">
+        <table aria-label="project urban living">
           <caption><b>DATA & FACTS</b></caption>
           <tr>
             <th>Residential Units</th>
@@ -128,7 +128,7 @@
         </p>
 
         <div class="table-container">
-        <table aria-describedby="project golden agers"> 
+        <table aria-label="project golden agers"> 
           <caption><b>DATA & FACTS</b></caption>
           <tr>
             <th>Residential Units</th>
@@ -174,16 +174,17 @@
 
       <div class="card flex-item">
         <img
-          src="assets/images/deepai-image3_large.jpg"
-          class="banner-img"
-          alt="apartment building with balconies full of green and trees"
-        >
-        <h2>Project Vision Living</h2>
-        <p>
-          Our flagship project Vision Living combines the vision of sustainable construction with green living comfort. Highest energy efficiency meets green living on all levels. Urban life with the feeling of residing directly in a green environment.        </p>
+        src="assets/images/deepai-image3_large.jpg"
+        class="banner-img"
+        alt="apartment building with balconies full of green and trees"
+      >
+      <h2>Project Vision Living</h2>
+      <p>
+        Our flagship project Vision Living combines the vision of sustainable construaction with green living comfort. Highest energy efficiency meets green living on all levels. Urban life with the feeling of residing directly in a green environment. The future of living starts here.
+      </p>
 
         <div class="table-container">
-        <table aria-describedby="project vision living">
+        <table aria-label="project vision living">
           <caption><b>DATA & FACTS</b></caption>
           <tr>
             <th>Residential Units</th>
@@ -203,7 +204,7 @@
           <tr>
             <th>Quarter</th>
             <td>Underground Parking</td>
-            <td>All apartments with Garden, green Balcony or green Terrace</td>
+            <td>All apartments with Garden or green Balcony</td>
           </tr>
           <tr>
             <th>Location</th>
@@ -212,7 +213,7 @@
           <tr>
             <th>Custom Options</th>
             <td>Furniture Packages</td>
-            <td>Personalized Interior Design</td>
+            <td>Personalized Interior</td>
           </tr>
           <tr>
             <th>Availability</th>

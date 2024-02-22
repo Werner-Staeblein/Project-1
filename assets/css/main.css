@@ -468,8 +468,6 @@ footer h4{
     text-align: center;
 }
 
-
-
 .fa-brands{
     display: inline-block;
     margin: 8rem 11%;
@@ -477,6 +475,27 @@ footer h4{
     font-size: 4rem;
     color: var(--fontcolor1);
 }
+
+.to-top-button{
+    display: block;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-bgc);
+    margin: auto 0 0 auto;
+}
+  
+.fa-arrow-up{
+    font-size: 3rem;
+    color: var(--fontcolor1);
+}
+  
 
 
 /*---------------------------------------------------------------------*/
