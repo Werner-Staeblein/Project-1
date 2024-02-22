@@ -700,6 +700,11 @@ form{
 
 @media (max-width: 420px) {
   
+
+section, footer{
+    padding: 0 2rem;
+}
+
 .fa-brands{
       font-size: 2.5rem;
       margin: 2rem 11%;
@@ -715,11 +720,14 @@ form{
     }
 
 th{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 30%;
+    padding: 5px;
 }
 
 td {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    padding: 5px;
     }
 
 .banner{
@@ -745,5 +753,7 @@ td {
 .banner-text{
     font-size: 1.6rem;
 }
+
+
 
 }
