@@ -677,4 +677,24 @@ input[type="checkbox"]:checked ~ .nav-links {
       top: 6rem;
     }
   
-  }
+.customer-heading{
+        margin-top: 15rem;
+    }
+    
+.customer-heading:before{
+        top: 12rem;
+    }
+    
+.customer-heading:after{
+        top: 10rem;
+    }
+    
+.fa-brands{
+        margin: 4rem 12%;
+        font-size: 3rem;   
+    }
+    
+form{
+        margin-top: 10rem;
+    }
+}
