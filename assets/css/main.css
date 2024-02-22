@@ -1,7 +1,6 @@
 /*---------------------------------------------------------------------*/
 /* General Styles and utilities styles */
 /*---------------------------------------------------------------------*/
-
 :root {
     --primary-bgc: rgb(36, 76, 195);
     --secondary-bgc: rgb(88, 126, 203);
@@ -40,7 +39,6 @@ section, footer{
 /*---------------------------------------------------------------------*/
 /* General Styles and utilities styles */
 /*---------------------------------------------------------------------*/
-
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -110,7 +108,6 @@ section, footer{
 /*-------------------------------------------------------------------*/
 /* Store Google-Fonts locally because CDN not compliant with GDPR */
 /*-------------------------------------------------------------------*/
-
 @font-face {
     font-family: 'Open Sans Bold';
     src: url('assets/fonts/OpenSans-Bold.ttf') format('truetype');
@@ -126,7 +123,6 @@ section, footer{
 /*--------------------------------------------------------------------------*/
 /* Navbar for larger screen-sizes / checkbox hack below for small screen */
 /*--------------------------------------------------------------------------*/
-
 .navbar {
     position: fixed;
     top: 0;
@@ -304,7 +300,6 @@ article p{
 /*---------------------------------------------------------------------*/
 /*                    PROJECTS PAGE
 /*---------------------------------------------------------------------*/
-
 .table-container {
     display: flex;
     flex-direction: column;
@@ -367,7 +362,6 @@ caption {
 /*---------------------------------------------------------------------*/
 /*                    REFERENCES PAGE
 /*---------------------------------------------------------------------*/
-
 .references .card::before{
     display: none;
 }
@@ -375,7 +369,6 @@ caption {
 /*---------------------------------------------------------------------*/
 /*                    CONTACT PAGE
 /*---------------------------------------------------------------------*/
-
 form {
     display: flex;
     flex-direction: column;
@@ -576,7 +569,7 @@ footer .fa-envelope{
     .banner1{
       margin-top: 6vh;
     }
-  }
+}
 
 /*----------------------------------------------------------------------*/
 /* RESPONSIVE NAVBAR MENU STARTS AND CHECKBOX HACK */
@@ -595,7 +588,7 @@ input[type="checkbox"] {
     cursor: pointer;
 }
   
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     .hamburger {
       display: block;
       margin-top: 2rem;
@@ -644,15 +637,21 @@ input[type="checkbox"]:checked ~ .nav-links {
   }
 
 .fa-brands{
-    margin: 1rem 12.5%;
-    font-size: 5rem;   
+    margin: 1rem 13%;
+    font-size: 5rem;
+    margin-top: 4rem;
   }
-
+  
 .flex-item{
     margin-bottom: 3rem;
   }
+
+.to-top-button{
+    width: 6rem;
+    height: 6rem;
 }
 
+}
 
 @media (max-width: 480px) {
 
@@ -696,5 +695,21 @@ input[type="checkbox"]:checked ~ .nav-links {
     
 form{
         margin-top: 10rem;
+    }
+}
+
+@media (max-width: 420px) {
+  
+.fa-brands{
+      font-size: 2.5rem;
+      margin: 2rem 12%;
+    }
+  
+.hamburger {
+      font-size: 4rem;
+    }
+  
+.heading{
+      font-size: 3rem;
     }
 }
