@@ -538,8 +538,28 @@ footer .fa-envelope{
 /*          RESPONSIVENESS STARTS HERE */
 /*---------------------------------------------------------------------*/
 
+@media (max-width: 1400px) {
+  
+    .banner{
+      margin-top: 18vh;
+    }
+  
+    .banner1{
+      margin-top: 8vh;
+    }
 
-
+    .banner-headline{
+        font-size: 4rem;
+    }
+    
+      .banner-text{
+        font-size: 1.8rem;
+    }
+    
+      .heading{
+        margin: 16rem 0 8rem 0;
+    }
+}
 
 /*----------------------------------------------------------------------*/
 /* RESPONSIVE NAVBAR MENU STARTS AND CHECKBOX HACK */
