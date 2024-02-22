@@ -544,10 +544,6 @@ footer .fa-envelope{
       margin-top: 18vh;
     }
   
-    .banner1{
-      margin-top: 8vh;
-    }
-
     .banner-headline{
         font-size: 4rem;
     }
@@ -559,7 +555,28 @@ footer .fa-envelope{
       .heading{
         margin: 16rem 0 8rem 0;
     }
+
+    .navbar{
+        min-height: 5vh;
+    }
 }
+
+@media (max-width: 1200px) {
+  
+    .nav-links {
+      gap: 0.8rem;
+      margin-right: 4vw;
+      font-size: 2.2rem;
+    }
+      
+    .fa-brands{
+      margin: 7rem 10%;
+    }
+  
+    .banner1{
+      margin-top: 6vh;
+    }
+  }
 
 /*----------------------------------------------------------------------*/
 /* RESPONSIVE NAVBAR MENU STARTS AND CHECKBOX HACK */
