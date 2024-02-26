@@ -153,7 +153,6 @@ that navbar/menu can be opened/closed by user. Once link in hamburger menu is cl
 
 ![Hamburger_Menu](readme_images/hamburger_menu.png)
 
-
 # Technologies used
 
 - HTML, CSS
