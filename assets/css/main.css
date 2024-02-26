@@ -548,40 +548,40 @@ footer .fa-envelope{
 @media (max-width: 1400px) {
   
     .banner{
-      margin-top: 18vh;
+    margin-top: 18vh;
     }
   
     .banner-headline{
-        font-size: 4rem;
+    font-size: 4rem;
     }
     
-      .banner-text{
-        font-size: 1.8rem;
+    .banner-text{
+    font-size: 1.8rem;
     }
     
-      .heading{
-        margin: 16rem 0 8rem 0;
+    .heading{
+    margin: 16rem 0 8rem 0;
     }
 
     .navbar{
-        min-height: 5vh;
+    min-height: 5vh;
     }
 }
 
 @media (max-width: 1200px) {
   
     .nav-links {
-      gap: 0.8rem;
-      margin-right: 4vw;
-      font-size: 2.2rem;
+    gap: 0.8rem;
+    margin-right: 4vw;
+    font-size: 2.2rem;
     }
       
     .fa-brands{
-      margin: 7rem 10%;
+    margin: 7rem 10%;
     }
   
     .banner1{
-      margin-top: 6vh;
+    margin-top: 6vh;
     }
 }
 
@@ -603,13 +603,14 @@ input[type="checkbox"] {
 }
   
 @media (max-width: 1050px) {
+    
     .hamburger {
       display: block;
       margin-top: 2rem;
       margin-right: 4rem;
       font-size: 5rem;
       color: white;
-}
+    }
   
 .nav-links {
     display: none;
@@ -622,25 +623,25 @@ input[type="checkbox"] {
     width: 100vw;
     margin-top: 50rem;
     z-index: 1; 
-}
+    }
   
 .nav-icon{
     font-size: 2rem;
-}
+    }
   
 .nav-links li + li {
     margin-top: 2rem;
-}
+    }
   
 input[type="checkbox"]:checked ~ .nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    }
   
 .flex-container{
     flex-direction: column;
-}
+    }
 
 .banner-img{
     max-width: 100%;
@@ -648,22 +649,22 @@ input[type="checkbox"]:checked ~ .nav-links {
     border-radius: 0.5rem;
     transition: opacity var(--transition-speed);
     margin: 0 auto;
-  }
+    }
 
 .fa-brands{
     margin: 1rem 13%;
     font-size: 4.8rem;
     margin-top: 4rem;
-  }
+    }
   
 .flex-item{
     margin-bottom: 3rem;
-  }
+    }
 
 .to-top-button{
     width: 6rem;
     height: 6rem;
-}
+    }
 
 .card::before{
     top: 4rem;
@@ -672,52 +673,51 @@ input[type="checkbox"]:checked ~ .nav-links {
     height: 14rem;
     font-size: 2.5rem;
     padding: 4rem;
-}
-
+    }
 }
 
 @media (max-width: 480px) {
 
 .banner{
-      margin-top: 18vh;
+    margin-top: 18vh;
     }
   
 .banner1{
-      margin-top: 8vh;
+    margin-top: 8vh;
     }
   
 .heading{
-      margin: 15rem 0 6rem 0;
-      font-size: 4rem;
+    margin: 15rem 0 6rem 0;
+    font-size: 4rem;
     }
   
 .heading:before{
-      top: 7rem;
+    top: 7rem;
     }
   
 .heading:after{
-      top: 6rem;
+    top: 6rem;
     }
   
 .customer-heading{
-        margin-top: 15rem;
+    margin-top: 15rem;
     }
     
 .customer-heading:before{
-        top: 12rem;
+    top: 12rem;
     }
     
 .customer-heading:after{
-        top: 10rem;
+    top: 10rem;
     }
     
 .fa-brands{
-        margin: 4rem 12%;
-        font-size: 3rem;   
+    margin: 4rem 12%;
+    font-size: 3rem;   
     }
     
 form{
-        margin-top: 10rem;
+    margin-top: 10rem;
     }
 
 .card::before{
@@ -727,15 +727,14 @@ form{
     height: 8rem;
     font-size: 1.5rem;
     padding: 1.5rem;
-}
-    
+    }  
 }
 
 @media (max-width: 420px) {
 
 section, footer{
     padding: 0 2rem;
-}
+    }
 
 .fa-brands{
       font-size: 2.5rem;
@@ -772,27 +771,25 @@ td {
     
 .banner1{
     margin-top: 2vh;
-}
+    }
 
 .more-info-button{
     text-align: center;
-}
+    }
 
 .banner-headline{
     font-size: 3rem;
-}
+    }
 
 .banner-text{
     font-size: 1.6rem;
-}
+    }
 
 .customer-heading:before{
     top: 10rem;
-}
+    }
 
 .customer-heading:after{
     top: 8rem;
-}
-
-
+    }
 }
