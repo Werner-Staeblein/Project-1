@@ -545,6 +545,25 @@ footer .fa-envelope{
 /*          RESPONSIVENESS STARTS HERE */
 /*---------------------------------------------------------------------*/
 
+.thankyou{
+    height: 40vh;
+    width: 80vw;
+    margin: 20vh auto 0 auto;
+    font-size: 4rem;
+    color: var(--fontcolor3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--fontcolor2);
+    border-radius: 1rem;
+    font-weight: bold;    
+}
+
+/*---------------------------------------------------------------------*/
+/*          RESPONSIVENESS STARTS HERE */
+/*---------------------------------------------------------------------*/
+
 @media (max-width: 1400px) {
   
     .banner{
@@ -676,6 +695,12 @@ input[type="checkbox"]:checked ~ .nav-links {
     }
 }
 
+@media (max-width: 780px) {
+    .fa-brands{
+        margin: 4rem 10%;
+    }
+}
+
 @media (max-width: 480px) {
 
 .banner{
@@ -712,7 +737,7 @@ input[type="checkbox"]:checked ~ .nav-links {
     }
     
 .fa-brands{
-    margin: 4rem 12%;
+    margin: 4rem auto;
     font-size: 3rem;   
     }
     
@@ -730,15 +755,15 @@ form{
     }  
 }
 
-@media (max-width: 420px) {
+@media (max-width: 431px) {
 
 section, footer{
     padding: 0 2rem;
     }
 
 .fa-brands{
-      font-size: 2.5rem;
-      margin: 2rem 11%;
+      font-size: 2.2rem;
+      margin: 2rem 7% 2rem 7%;
       margin-top: 3rem;
     }
   

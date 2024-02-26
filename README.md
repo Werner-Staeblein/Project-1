@@ -8,7 +8,7 @@ Goal is attraction of interest in product and to convey message of quality, reli
 
 ## Purpose
 
-The project is a static website with 5 number of pages.
+The project is a static website with 6 number of pages.
 
 The website is built with HTML and CSS for Code Institute's Full Stack Developer course - Project 1
 
@@ -123,6 +123,9 @@ For users with mobile devices, an easilty recognizable scroll-to-top button with
 ### submenu in footer
 To ease navigation, a submenu with links to important pages was included in the footer
 
+### confirmation of form submission
+User receives feedback upon successful submission of the contact form. 
+
 # Technologies used
 
 - HTML, CSS
@@ -190,6 +193,7 @@ Lighthouse reported some minor performance losses for use of fontawesome and goo
 | quality.html        |   94    |   98    |   100   |   100   |
 | references.html     |   100   |   100   |   100   |   100   |
 | contact.html        |   100   |   100   |   100   |   100   |
+| contact2.html       |   100   |   100   |   100   |   100   |
 
 **lighthouse test mobile (scores reported by lighthouse)**
 
@@ -200,6 +204,7 @@ Lighthouse reported some minor performance losses for use of fontawesome and goo
 | quality.html        |   99    |   98    |   95    |   100   |
 | references.html     |   99    |   100   |   95    |   100   |
 | contact.html        |   100   |   100   |   95    |   100   |
+| contact2.html       |   100   |   100   |   95    |   100   |
 
 # User Stories
 

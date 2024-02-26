@@ -13,7 +13,7 @@
   <meta property="og:title" content="Homeland living">
   <meta property="og:description" content="The real estate specialist in the Rhine-Main area. Condos with space and energy efficiency">
 
-  <title>Homeland - Contact</title>
+  <title>Homeland - Thank You Page</title>
 
   <!-- APPLE TOUCH ICON AND FAVICON -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon-120x120.png">
@@ -41,7 +41,7 @@
     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
     <input type="checkbox" id="checkbox_toggle">
 
-    <ul class="nav-links">
+    <ul class="nav-links" role="menubar">
       <!-- NAVIGATION MENUS -->
       <li role="menuitem" aria-label="Navigate to the homepage"><a href="index.html"><i class="fa fa-home nav-icon"></i>Home</a></li>
       <li role="menuitem" aria-label="Explore our projects"><a href="projects.html"><i class="fa-regular fa-building nav-icon"></i>Projects</a></li>
@@ -53,56 +53,18 @@
 
   <main>
 
-      <section>
+      
 
-      <h2 class="heading margin-top">Get in touch</h2>
+     <!-- <h2 class="heading margin-top">Get in touch</h2> -->
+        <div class="flex-container thankyou">
 
-      <form method="get" action="contact2.html">
-        
-        <!--Tested with following and worked: method="post" action="https://formdump.codeinstitute.net"> -->
+            <p>Thank you for message. <br> We will get back to you quickly</p>
 
-        <div class="flex-container">
-                    
-          <div class="input-row">
-            <label for="inquiry-type">Inquiry Type:</label>
-            <select id="inquiry-type" name="inquiry-type">
-              <option value="general">General Inquiry</option>
-              <option value="appointment">Appointment Scheduling</option>
-              <option value="callback">Callback Request</option>
-              <option value="property">Property Information</option>
-            </select>
-          </div>
-
-          <div class="input-row">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-          </div>
-        </div>
-
-        <div class="flex-container">
-          <div class="input-row">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
-          </div>
-
-          <div class="input-row">
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
-          </div>
-        </div>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your Message"></textarea>
-
-        <input type="submit" value="Send" class="more-info-button" aria-label="Submit Form">
-
-      </form>
-    
-    </section>
+        </div>                   
 
   </main>
 
-  <footer class="flex-container">
+   <footer class="flex-container">
   
     <div class="flex-item">
       <h3>
@@ -149,6 +111,6 @@
     </div>
 
   </footer>
-  
+   
 </body>
 </html>
