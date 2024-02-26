@@ -4,7 +4,7 @@ Is a website for people interested in real estate and newly build apartments/hou
 
 Goal is attraction of interest in product and to convey message of quality, reliability of project completion, and sustainability in construction work
 
-<span style="color:red; font-weight:bold;">placeholder for link of the final project</span>
+<span style="color:red; font-weight:bold;">placeholder for image/screenshot various devices</span>
 
 ## Purpose
 
@@ -12,7 +12,7 @@ The project is a static website with 5 number of pages.
 
 The website is built with HTML and CSS for Code Institute's Full Stack Developer course - Project 1
 
-__placeholder for link of the final project__
+[FinalProject](https://werner-staeblein.github.io/Project-1/)
 
 # User Experience
 
@@ -116,6 +116,12 @@ Well-designed buttons to enhance website navigation. Guides users towrds importa
 
 ### Hover Effects
 Mild hover effects on buttons to add layer of responsiveness. Visual feedback, signaling to users that an element is interactive. This responsiveness contributes to a more engaging and dynamic user experience, making the website feel modern and user-focused.
+
+### scroll to top button with arrow
+For users with mobile devices, an easilty recognizable scroll-to-top button with arrow was included in footer
+
+### submenu in footer
+To ease navigation, a submenu with links to important pages was included in the footer
 
 # Technologies used
 
