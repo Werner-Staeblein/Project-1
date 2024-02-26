@@ -67,18 +67,20 @@ Message to user that user can find information about residential construction. I
 ![Color Palette](readme_images/Color_Palette.png)
 
 
-Color palette used with meaning and interpreation of blue color in mind. Blue conveys a sense of trust, stability and reliability. Color blue as core for the color scheme also conveys dependability, an important factor for the underlying product advertised ('dependable real estate developer')
+Color palette used with meaning and interpreation of blue color in mind. Blue conveys a sense of trust, stability and reliability. 
+
+Color blue as core for the color scheme also conveys dependability, an important factor for the underlying product advertised ('dependable real estate developer')
 
 # Typograhpy
 
-Font types that convey stability and credibility used.
-Google Font-type hosted locally (without CDN) for reasons of European GDPR
+Font type that conveys stability and credibility (Open Sans) used.
+Google font-type hosted locally (without CDN) for reasons of European GDPR. Minimal loss on performance through local hosting of googlefonts but GDPR rules weigh more than performance benefit of CDN
 
 # Images
 
 Obtaining consistent AND FREE images usable for project on sites such as Pexels, Unsplash, Pixaby was difficult.
 
-Images generated with image-generators. Source of image-generator included in image filenames.
+Images generated with image-generators.
 
 Image Generator used:
 
@@ -89,15 +91,15 @@ Selected images (unsplash, pexels) that are free of licenses in addition to imag
 # Accessibility
 
 - use of aria labels with descriptive alt text for images and tags to procide information for screenreaders
+- use of ARIA roles and aria-label to ensure smooth experience with screenreaders
+- Website was checked with Google Lighthouse for color balance to be sufficient and to have best possible access for users with color blindness
 
-<span style="color:red; font-weight:bold;">Site was checked with __Google Lighthouse was used__ to verify tht color balance is sufficient to have best possible access for users with color blindness</span>
+# Visual effects
 
-## Visual effects
-
-# Hover on buttons
+## Hover on buttons
 Some subtle highlighting of background-color on hover/focus state for buttons
 
-# Buttons
+## Buttons
 Uniform styling of all buttons across all the different pages sith subtle uniform hover/focus-state effect
 
 # Features
@@ -143,55 +145,66 @@ Mild hover effects on buttons to add layer of responsiveness. Visual feedback, s
 
 # Testing
 
-Testing was ongoing with DevTools of  Google. Testing done across other Browsers (Firefox, Edge)
+Testing was ongoing with DevTools of Google. Testing done across other Browsers (Firefox, Edge)
 
-The following issues were addressed while testing
+The following issues were addressed while testing:
 
--- remove redundant .css files in fontawesome folder so that only the fontawesome .css in the folder that are used in the project (reduces render-blocking files and increases site-load speed)
+* remove redundant .css files in fontawesome folder so that only the fontawesome .css in the folder that are used in the project (reduces render-blocking files and increases site-load speed)
 
--- ARIA warnings in lighthouse addressed with aria-labels and use of role
+* ARIA warnings in lighthouse addressed with aria-labels and use of role. 
+
+* ARIA warning on contrast. Occassionally, the lighthouse testing showed an insufficient contrast (scores reported yb lighthouse not always consistent with various test cycles). Change of colors and background colors to ensure sufficient contrast
+
+* Performance and load of website was insufficient initally. Reduced image sizes to ensure that performance is improved
+
+*  Lighthouse testing indicates minimal performance losses (values of 98-99) on mobile for use of fontawesome and google fonts locally (instaed of CDN). In order to be compliant 
+with GDPR (a European law always matters more than a lighthouse performance score), I decided to maintain fontawesome and googlefonts locally without CDN as performance loss
+is still acceptable. No performance losses on desktop
 
 1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
 
-The website was tested with HTML validator. No errors were found.
+All sites of the website was tested with HTML validator while developing. No errors or warnings were found on any of the pages
 
-<span style="color:red">__![Home Page HTML](readme_images/) | a picture of the validation of the HTML done__</span>
+2. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
 
-- [Home Page HTML](readme_images/IndexHTML.png)
+The CSS stylesheet was tested with CSS validator (jigsaw) while developing. No errors were found.
 
-1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
-
-
-The CSS stylesheet was tested with CSS validator. No errors were found.
-
-<span style="color:red">__![CSS Stylling](readme_images/) | a picture of the validation of the CSS valiation done__</span>
-
-2. [style.css CSS](readme_images/)
+![style.css CSS validator check](readme_images/jigsaw_CSS_validator_check.png)
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
-Google lighthouse reported performance of XYZ on the desktop view / check mobile view
+Lighthouse reported some minor performance losses for use of fontawesome and googlefonts locally. Both stored locally instead of CDN for reasons of GDPR. Minor losses on performance acceptable rather than using GDPR non-compliant CDN
 
-Google lighthouse reported SEO score with XYZ
+**lighthouse test desktop (scores reported by lighthouse)**
 
-<span style="color:red">__Include two pictures of lighthouse testing for mobile and desktop view__</span>
+| File                |  Perf.  | Access. | Best P. | SEO     |
+|---------------------|---------|---------|---------|---------|
+| index.html          |   100   |   100   |   100   |   100   |
+| projects.html       |   100   |   100   |   100   |   100   |
+| quality.html        |   94    |   98    |   100   |   100   |
+| references.html     |   100   |   100   |   100   |   100   |
+| contact.html        |   100   |   100   |   100   |   100   |
 
-Mobile
+**lighthouse test mobile (scores reported by lighthouse)**
 
-<img src="readme_images/" alt="Mobile Page" width="600"/>
+| File                |  Perf.  | Access. | Best P. | SEO     |
+|---------------------|---------|---------|---------|---------|
+| index.html          |   98    |   100   |   95    |   100   |
+| projects.html       |   99    |   100   |   95    |   100   |
+| quality.html        |   99    |   98    |   95    |   100   |
+| references.html     |   99    |   100   |   95    |   100   |
+| contact.html        |   100   |   100   |   95    |   100   |
 
-Desktop
+# User Stories
 
-<img src="readme_images/" alt="Mobile Page" width="600"/>
-
-
-## User Stories
-
-| Expectations of user                              | Realisation in website   |
-| -----------------------                           | ----------------------   |
-| __placeholder for user expectation__              | __placeholder for realisation__             |
-| __placeholder for user expectation__              | __placeholder for realisation__             |
-|| __placeholder for user expectation__             | | __placeholder for realisation__             |
+| Expectations of user website             | Realisation in website              |
+| --------------------- | ---------------------- |
+| User wants to easily be informed about available projects       | Website provides information on properties in development, including location, surroundings, and available floorplan structures       |
+| Local resident user wants information on construction progress, developments in the neighborhood       | Website showcases images and plans of planned projects, including information on potential amenities in the surroundings for local residents in the neighborhood       |
+| User wants to be informed on key themes such as quality or sustainability       | Website allows users to obtain information about sustainability (green buildings) and quality control in the development process       |
+| Returning user wants updates on potential new projects       | Website informs the returning user about the development progress and sales starting dates, including the number of units still available       |
+| Mobile users want a responsive and mobile-friendly design       | Website is responsive for various devices, ensuring a user-friendly experience with different devices and screen sizes       |
+| Potential property investor user wants to see key information on floor plans, development location, and short informative facts       | Website provides key parameters that investors watch out for in the projects section       |
 
 # Credits
 
