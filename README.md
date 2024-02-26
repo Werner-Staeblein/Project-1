@@ -4,7 +4,7 @@ Is a website for people interested in real estate and newly build apartments/hou
 
 Goal is attraction of interest in product and to convey message of quality, reliability of project completion, and sustainability in construction work
 
-<span style="color:red; font-weight:bold;">placeholder for image/screenshot various devices</span>
+![Multi_Device_Image](readme_images/multi_device_image.png)
 
 ## Purpose
 
@@ -48,11 +48,17 @@ Website shall be accessible with screenreaders
 
 # Structure
 
-The website has 5 pages. From the homepage, all pages can be visited. Key of navigation centered around multiple options to view current projects/products on offer.
+The website has 5 pages. From the homepage, all pages can be visited. Key of navigation centered around multiple options to view current projects/products on offer. Site-specific content was used.
 
 # Homepage
 
 Message to user that user can find information about residential construction. Image of visioanry building to increase appeal and attractiveness/stickiness of user. Create curiositiy about "hello"-product (visionary building)
+
+![Starting_page](readme_images/finished_starting_page.png)
+
+![Starting_page](readme_images/finished_starting_page_part_2.png)
+
+![Starting_page](readme_images/finished_starting_page_part3.png)
 
 # Website goal
 
@@ -64,7 +70,7 @@ Message to user that user can find information about residential construction. I
 
 # Color Scheme
 
-![Color Palette](readme_images/Color_Palette.png)
+![Color Palette](readme_images/color_palette.png)
 
 
 Color palette used with meaning and interpreation of blue color in mind. Blue conveys a sense of trust, stability and reliability. 
@@ -90,7 +96,7 @@ Selected images (unsplash, pexels) that are free of licenses in addition to imag
 
 # Accessibility
 
-- use of aria labels with descriptive alt text for images and tags to procide information for screenreaders
+- use of aria labels with descriptive alt text for non-test elements and tags to provide information for screenreaders and cater for the visutally impaired
 - use of ARIA roles and aria-label to ensure smooth experience with screenreaders
 - Website was checked with Google Lighthouse for color balance to be sufficient and to have best possible access for users with color blindness
 
@@ -110,9 +116,13 @@ Logo created with LogoMaker of Experte.de [LogoCreatorExperte.de](https://www.ex
 
 The logo that serves as a link to the homepage is used in the navigation and footer. With click on logo, user can navigate back to homepage (index.html) all the time
 
+![Logo](readme_images/logo.png)
+
 ### Buttons
 
 Well-designed buttons to enhance website navigation. Guides users towrds important section of projects or contact page
+
+![Button](readme_images/button.png)
 
 ### Hover Effects
 Mild hover effects on buttons to add layer of responsiveness. Visual feedback, signaling to users that an element is interactive. This responsiveness contributes to a more engaging and dynamic user experience, making the website feel modern and user-focused.
@@ -120,11 +130,24 @@ Mild hover effects on buttons to add layer of responsiveness. Visual feedback, s
 ### scroll to top button with arrow
 For users with mobile devices, an easilty recognizable scroll-to-top button with arrow was included in footer
 
+![Scroll_to_Top](readme_images/scroll_to_top_feature.png)
+
 ### submenu in footer
 To ease navigation, a submenu with links to important pages was included in the footer
 
+![FooterSubmenu](readme_images/submenu_footer.png)
+
 ### confirmation of form submission
 User receives feedback upon successful submission of the contact form. 
+
+![ConfirmationSubmission](readme_images/confirmation_submission.png)
+
+### Hamburger Menu for small devices (tablet/smartphones)
+To allow for a proper collapsing of the menu/navbar, a CSS-based hamburger menu was used so
+that navbar/menu can be opened/closed by user. Once link in hamburger menu is clicked, menu disappears on forwarding to clicked page 
+
+![Hamburger_Menu](readme_images/hamburger_menu.png)
+
 
 # Technologies used
 
@@ -152,6 +175,8 @@ User receives feedback upon successful submission of the contact form.
 
 - A template provided by Code Institute for the workspace of the project
 
+- [Techsini](https://techsini.com/multi-mockup/index.php) - to generate multi-device image with different screensizes and devices possibly used by user
+
 # Testing
 
 Testing was ongoing with DevTools of Google. Testing done across other Browsers (Firefox, Edge)
@@ -160,7 +185,7 @@ The following issues were addressed while testing:
 
 * remove redundant .css files in fontawesome folder so that only the fontawesome .css in the folder that are used in the project (reduces render-blocking files and increases site-load speed)
 
-* ARIA warnings in lighthouse addressed with aria-labels and use of role. 
+* ARIA warnings in lighthouse addressed with aria-labels and use of role to ensure conformity with accessibility guidelines across all pages
 
 * ARIA warning on contrast. Occassionally, the lighthouse testing showed an insufficient contrast (scores reported yb lighthouse not always consistent with various test cycles). Change of colors and background colors to ensure sufficient contrast
 
@@ -169,6 +194,14 @@ The following issues were addressed while testing:
 *  Lighthouse testing indicates minimal performance losses (values of 98-99) on mobile for use of fontawesome and google fonts locally (instaed of CDN). In order to be compliant 
 with GDPR (a European law always matters more than a lighthouse performance score), I decided to maintain fontawesome and googlefonts locally without CDN as performance loss
 is still acceptable. No performance losses on desktop
+
+* manual checks that no broken internal links exist
+
+* descriptive name files, descriptive image names without spaces or capitalisations to ensure cross-platform compatibility
+
+* ensured that code is indented in consistent manner to ease readability with no unnecessary repeated blank lines
+
+* Checked that valiation on input fields is done before submission via HTML valiation in input fields
 
 1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
 
