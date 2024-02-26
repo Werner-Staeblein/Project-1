@@ -8,6 +8,7 @@
     --fontcolor1: rgb(236, 239, 243);
     --fontcolor2: rgb(36, 76, 195);
     --fontcolor3: rgb(45, 23, 211);
+    --fontcolor4: rgba(236,239,243,0.9);
     --transition-speed: 0.5s;
 }
   
@@ -68,7 +69,7 @@ section, footer{
     text-align: center;
     margin: 10rem 0 8rem 0;
     position: relative;
-    color: var(--fontcolor1);
+    color: var(--fontcolor2);
     font-size: 4rem;
     letter-spacing: 0.1rem;
     text-shadow: 0.2rem 0.2rem 0.2rem var(--fontcolor3);
@@ -103,7 +104,7 @@ section, footer{
     border-radius: 0.6rem;
     cursor: pointer;
     margin: auto auto 0 auto;
-    color: var(--fontcolor1);
+    color: var(--fontcolor3);
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
@@ -327,7 +328,7 @@ article p{
 }
   
 table, th, td {
-    border: 1px solid var(--fontcolor2);
+    border: 1px solid var(--fontcolor4);
     white-space: normal;
 }
   
@@ -339,13 +340,13 @@ th, td {
   
 th {
     background-color: var(--primary-bgc);
-    color: var(--fontcolor1);
+    color: var(--fontcolor4);
     font-size: 1.3rem;
 }
   
 td {
     background-color: var(--secondary-bgc);
-    color: var(--fontcolor1);
+    color: var(--fontcolor4);
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -480,12 +481,12 @@ footer div a img{
   }
   
 .footer-span{
-    color: var(--fontcolor1);
+    color: var(--fontcolor4);
     font-size: 2rem;
 }
   
 footer .flex-item p{
-    color: var(--fontcolor1);
+    color: var(--fontcolor4);
     text-align: center;
     margin: 3rem;
     font-weight: bold;
@@ -495,7 +496,7 @@ footer .flex-item p{
 footer .footer-item p{
     font-size: 1.3rem;
     margin-top: 0.4rem;
-    color: var(--fontcolor1);
+    color: var(--fontcolor4);
     text-align: center;
 }
   
