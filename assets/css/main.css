@@ -122,13 +122,13 @@ section, footer{
 /*-------------------------------------------------------------------*/
 @font-face {
     font-family: 'Open Sans Bold';
-    src: url('assets/fonts/OpenSans-Bold.ttf') format('truetype');
+    src: url('assets/fonts/opensans-bold.ttf') format('truetype');
     font-weight: bold;
 }
   
 @font-face {
     font-family: 'Open Sans Medium';
-    src: url('assets/fonts/OpenSans-Medium.ttf') format('truetype');
+    src: url('assets/fonts/opensans-medium.ttf') format('truetype');
     font-weight: normal; 
 } 
 

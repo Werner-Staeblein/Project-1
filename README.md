@@ -64,7 +64,7 @@ Message to user that user can find information about residential construction. I
 
 # Color Scheme
 
-![Color Palette](assets/readme_images/Color_Palette.png)
+![Color Palette](readme_images/Color_Palette.png)
 
 
 Color palette used with meaning and interpreation of blue color in mind. Blue conveys a sense of trust, stability and reliability. Color blue as core for the color scheme also conveys dependability, an important factor for the underlying product advertised ('dependable real estate developer')
@@ -145,22 +145,28 @@ Mild hover effects on buttons to add layer of responsiveness. Visual feedback, s
 
 Testing was ongoing with DevTools of  Google. Testing done across other Browsers (Firefox, Edge)
 
+The following issues were addressed while testing
+
+-- remove redundant .css files in fontawesome folder so that only the fontawesome .css in the folder that are used in the project (reduces render-blocking files and increases site-load speed)
+
+-- ARIA warnings in lighthouse addressed with aria-labels and use of role
+
 1. **[W3 Markup Validation](https://validator.w3.org/) - HTML Validation**
 
 The website was tested with HTML validator. No errors were found.
 
-<span style="color:red">__![Home Page HTML](asssets/readme_images/) | a picture of the validation of the HTML done__</span>
+<span style="color:red">__![Home Page HTML](readme_images/) | a picture of the validation of the HTML done__</span>
 
-- [Home Page HTML](assets/readme_images/IndexHTML.png)
+- [Home Page HTML](readme_images/IndexHTML.png)
 
 1. **[W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation**
 
 
 The CSS stylesheet was tested with CSS validator. No errors were found.
 
-<span style="color:red">__![CSS Stylling](assets/readme_images/) | a picture of the validation of the CSS valiation done__</span>
+<span style="color:red">__![CSS Stylling](readme_images/) | a picture of the validation of the CSS valiation done__</span>
 
-2. [style.css CSS](assets/readme_images/)
+2. [style.css CSS](readme_images/)
 
 3. **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
 
@@ -172,11 +178,11 @@ Google lighthouse reported SEO score with XYZ
 
 Mobile
 
-<img src="assets/readme_images/" alt="Mobile Page" width="600"/>
+<img src="readme_images/" alt="Mobile Page" width="600"/>
 
 Desktop
 
-<img src="assets/readme_images/" alt="Mobile Page" width="600"/>
+<img src="readme_images/" alt="Mobile Page" width="600"/>
 
 
 ## User Stories
