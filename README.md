@@ -123,6 +123,12 @@ The logo that serves as a link to the homepage is used in the navigation and foo
 
 ![Logo](readme_images/logo.png)
 
+### Icons in Navbar
+
+Navbar includes fontawesome icons
+
+![Icon_features_navbar](readme_images/icon_features_navbar.png)
+
 ### Buttons
 
 Well-designed buttons to enhance website navigation. Guides users towrds important section of projects or contact page
@@ -152,6 +158,9 @@ To allow for a proper collapsing of the menu/navbar, a CSS-based hamburger menu 
 that navbar/menu can be opened/closed by user. Once link in hamburger menu is clicked, menu disappears on forwarding to clicked page 
 
 ![Hamburger_Menu](readme_images/hamburger_menu.png)
+
+### subtle hover effect with opacity on hover on images
+A subtle opacity effect on hover on images was used
 
 # Technologies used
 
@@ -206,6 +215,10 @@ is still acceptable. No performance losses on desktop
 * ensured that code is indented in consistent manner to ease readability with no unnecessary repeated blank lines
 
 * Checked that valiation on input fields is done before submission via HTML valiation in input fields
+
+* Checked responsiveness manually on various screensizes and devices including iPhone SE, iPhone XR, iPhne2Pro, SamsungGalaxy S8+, SamsungGalaxyS20Ultra, IPad Pro, IPad Air, IPad Mini
+
+* Tried a fade-in effect for each of the pages with @keyframes such as every new page would be fading in with opacity from zero to 1. This CSS feature, however, would have had substanial effects on performance and lighthouse testing suggested to drop this idea and feature altogether for performance reasons
 
 **Automated testing and validation**
 
