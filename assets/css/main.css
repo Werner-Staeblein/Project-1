@@ -64,6 +64,12 @@ section, footer{
     flex-direction: column;
     padding: 1rem;
 }
+ 
+.social-icons{
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
 
 .heading{
     text-align: center;
@@ -594,14 +600,17 @@ footer .fa-envelope{
     margin-right: 4vw;
     font-size: 2.2rem;
     }
-      
-    .fa-brands{
-    margin: 7rem 10%;
-    }
-  
+     
     .banner1{
     margin-top: 6vh;
     }
+
+    .social-icons{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}   
 }
 
 /*----------------------------------------------------------------------*/
@@ -670,11 +679,11 @@ input[type="checkbox"]:checked ~ .nav-links {
     margin: 0 auto;
     }
 
-.fa-brands{
-    margin: 1rem 13%;
-    font-size: 4.8rem;
-    margin-top: 4rem;
-    }
+.social-icons{
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}   
   
 .flex-item{
     margin-bottom: 3rem;
@@ -692,12 +701,6 @@ input[type="checkbox"]:checked ~ .nav-links {
     height: 14rem;
     font-size: 2.5rem;
     padding: 4rem;
-    }
-}
-
-@media (max-width: 780px) {
-    .fa-brands{
-        margin: 4rem 10%;
     }
 }
 
@@ -734,13 +737,8 @@ input[type="checkbox"]:checked ~ .nav-links {
     
 .customer-heading:after{
     top: 10rem;
-    }
-    
-.fa-brands{
-    margin: 4rem auto;
-    font-size: 3rem;   
-    }
-    
+    }  
+   
 form{
     margin-top: 10rem;
     }
@@ -752,9 +750,9 @@ form{
     height: 8rem;
     font-size: 1.5rem;
     padding: 1.5rem;
-    }  
+    }   
 }
-
+    
 @media (max-width: 431px) {
 
 section, footer{
@@ -762,17 +760,15 @@ section, footer{
     }
 
 .fa-brands{
-      font-size: 2.2rem;
-      margin: 2rem 7% 2rem 7%;
-      margin-top: 3rem;
+    font-size: 2.8rem;
     }
   
 .hamburger {
-      font-size: 4rem;
+    font-size: 4rem;
     }
   
 .heading{
-      font-size: 3rem;
+    font-size: 3rem;
     }
 
 th{
@@ -817,4 +813,8 @@ td {
 .customer-heading:after{
     top: 8rem;
     }
+
+.social-icons{
+    margin-bottom: 3rem;
+}
 }
