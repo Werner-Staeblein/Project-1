@@ -73,6 +73,9 @@ Highlight key projects for different segment of buyers (Urban Living, Golden Age
 + route user to to products page and contact page to initate contact 
 
 # Design
+Inital drawings and idea with wireframe. Some content originally in wireframe changed in final version. Set-up of layout and structure to allow for definition of utilities class such as utilities classes for flexbox
+
+![wireframe_first_page](readme_images/wireframe.png)
 
 # Color Scheme
 
@@ -149,7 +152,7 @@ To ease navigation, a submenu with links to important pages was included in the 
 ![FooterSubmenu](readme_images/submenu_footer.png)
 
 ### confirmation of form submission
-User receives feedback upon successful submission of the contact form. 
+User receives feedback upon successful submission of the contact form. I also tested the form to work with formdump.codeinstitute.net
 
 ![ConfirmationSubmission](readme_images/confirmation_submission.png)
 
@@ -187,6 +190,8 @@ A subtle opacity effect on hover on images was used
 - **[Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)**- To check responsiveness of page, debug code, and important lighthouse checks for performance, accessibility, best practices, SEO
 
 - **[Techsini](https://techsini.com/multi-mockup/index.php)** - to generate multi-device image with different screensizes and devices possibly used by user
+
+- **[Balsamiq](https://balsamiq.com/)** - to generate wireframe and layout for first page and think about structure of containers, sections, image/text combinations
 
 - A template provided by Code Institute for the workspace of the project
 
